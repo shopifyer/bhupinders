@@ -4406,7 +4406,9 @@ START: Header CSS
 .about-section {
   position: relative;
   z-index: 1;
-  background-color: #101010;
+  background-color: #080808;
+  padding-top: 200px;
+
 }
 .about-section .shape-1 {
   position: absolute;
@@ -4752,7 +4754,7 @@ START: Header CSS
 }
 
 .about-content-4 {
-  max-width: 530px;
+  /* max-width: 530px; */
   width: 100%;
 }
 .about-content-4 .section-heading .section-title {
