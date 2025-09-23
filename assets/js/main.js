@@ -261,8 +261,8 @@
 
         // Journey Carousel
         var swiperJourney = new Swiper(".journey-carousel", {
-            slidesPerView: 3.25,
             spaceBetween: 24,
+            slidesPerView: 'auto',
             slidesPerGroup: 1,
             loop: false,
             autoplay: false,
@@ -274,15 +274,13 @@
             },
             breakpoints: {
                 320: {
-                    slidesPerView: 1,
                     slidesPerGroup: 1
                 },
                 767: {
-                    slidesPerView: 2,
                     slidesPerGroup: 1
                 },
                 1024: {
-                    slidesPerView: 3.75,
+                    
                     slidesPerGroup: 1,
                 },
             },

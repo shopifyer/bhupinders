@@ -4579,6 +4579,9 @@ START: Header CSS
   .about-content-2 p {
     font-size: 16px;
   }
+  .about-section {
+    padding-top: 100px;
+  }
 }
 .about-content-2 .about-btn-wrap {
   display: flex;
@@ -6809,10 +6812,19 @@ START: Header CSS
   .exp-items .exp-item .exp-title a {
     font-size: 60px;
   }
+  .exp-items {
+    gap: 40px;
+  }
+  .exp-items .exp-item .exp-title {
+    font-size: 30px;
+  }
 }
 @media only screen and (max-width: 767px) {
   .exp-items .exp-item .exp-title a {
     font-size: 28px;
+  }
+  .exp-items {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 .exp-items .exp-item .exp-title a:hover {
@@ -8496,6 +8508,7 @@ START: Theme Slider CSS
 ----------------------------------------*/
 .journey-section {
   background-color: #02090a;
+  border-top: 1px solid #696969
 }
 
 .journey-section .section-title{
@@ -8508,15 +8521,16 @@ START: Theme Slider CSS
 }
 
 .journey-carousel {
-  overflow: hidden;
   max-width: 1320px; 
-  /* overflow: visible; */
+  overflow: visible;
+  cursor: pointer;
 }
 
 .journey-carousel .swiper-slide {
  display: flex;
  height: auto;
  min-height: 100%;
+ width: 326px;
 }
 
 .journey-item {
