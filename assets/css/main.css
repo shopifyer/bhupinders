@@ -10393,8 +10393,6 @@ START: Footer CSS
   font-family: var(--ag-ff-heading);
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
-  font-weight: 500;
-  text-transform: uppercase;
 }
 @media only screen and (max-width: 992px) {
   .footer-1 .footer-top .footer-top-contact .contact-footer a,
